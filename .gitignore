@@ -1,0 +1,35 @@
+# Datasets
+*.csv
+*.json
+data/
+datasets/
+*.parquet
+
+# Trained weights / binary artifacts — AI models never pushed
+*.keras
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+
+# Research reports & documentation — docs never pushed
+*.pdf
+*.docx
+
+# Agent / AI configs — NEVER pushed
+.opencode/
+.agents/
+AGENTS.md
+CLAUDE.md
+.env
+*.env
+
+# Environment / OS noise
+.DS_Store
+__MACOSX/
+.venv/
+venv/
+~$*
+.ipynb_checkpoints/
